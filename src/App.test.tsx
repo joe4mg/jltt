@@ -12,8 +12,9 @@ test('tapping on a dishwasher takes the user to the product details', async () =
   render(<App />);
   const listItems = await screen.findAllByTestId('list-item');
   await fireEvent.click(listItems[0])
-  screen.getByRole('heading', {
+  const detailsPageTitle = await screen.findByRole('heading', {
     name: /Bosch SMS24AW01G Freestanding Dishwasher, White/i,
     level: 1
   })
+  expect(detailsPageTitle).toBeInTheDocument()
 });
