@@ -9,4 +9,5 @@ Details are in the CRA readme CRA_README.MD. The usual scripts apply such as `np
 
 - No routing (such as React Router) was required for the task requirements.
 - Only displaying image media on detail page
+- Set API responses as `any` - would ideally have type defs for these.
 

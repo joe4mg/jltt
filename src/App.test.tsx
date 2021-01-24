@@ -4,15 +4,16 @@ import App from './App';
 
 test('displays 20 dishwashers', async () => {
   render(<App />);
-  const listItems = screen.getAllByTestId('list-item');
+  const listItems = await screen.findAllByTestId('list-item');
   expect(listItems.length).toBe(20);
 });
 
 test('tapping on a dishwasher takes the user to the product details', async () => {
   render(<App />);
-  const firstListItem = screen.getAllByTestId('list-item')[0];
-  await fireEvent.click(firstListItem)
+  const listItems = await screen.findAllByTestId('list-item');
+  await fireEvent.click(listItems[0])
   screen.getByRole('heading', {
-    name: /Bosch SMS24AW01G Freestanding Dishwasher, White/i
+    name: /Bosch SMS24AW01G Freestanding Dishwasher, White/i,
+    level: 1
   })
 });
