@@ -1,0 +1,638 @@
+{
+  "productId": "3218074",
+  "bundleProducts": [],
+  "details": {
+    "returns": "\u003cdiv class\u003d\"par parsys\"\u003e\n \u003cdiv class\u003d\"cms30r section\"\u003e\n  \u003cdiv class\u003d\"free-html\"\u003e \n   \u003cstyle\u003e#cq-returns-info p a{padding:0;} #cq-returns-info h2{padding:18px 0 16px 0; border-bottom: 1px solid #bfbdb7; font-size: 18px; font-weight: bold;} #cq-returns-info p{padding:0 0 6px;}\n   \u003c/style\u003e\n   \u003cdiv id\u003d\"cq-returns-info\"\u003e \n    \u003ch2\u003eReturns\u003c/h2\u003e \n    \u003cp\u003eIf you’ve changed your mind about keeping your purchase, please return it in its original condition with proof of purchase and we’ll exchange or refund it. Unless faulty, this should be within 35 days of receiving your order. By original condition, we’d expect this to mean that you’ve kept packaging and labels, and that the item is undamaged and unused.\u003c/p\u003e \n    \u003cp\u003eYou can return for free in the UK via John Lewis and Waitrose Shops, Royal Mail, Collect+ or MyHermes. If you need to arrange collection of large or heavy items, call us on \u003cstrong\u003e03456 049 049\u003c/strong\u003e. For international returns queries, call us on \u003cstrong\u003e+44 1698 545 454\u003c/strong\u003e\u003c/p\u003e \n    \u003cp\u003eYou’ll find returns information on your delivery note. Exceptions apply to certain products - \u003ca href\u003d\"/customer-services/information-about-ordering-and-returning-products#refund\"\u003efind out more about our refund policy\u003c/a\u003e\u003c/p\u003e\n   \u003c/div\u003e\n  \u003c/div\u003e\n \u003c/div\u003e\n\u003c/div\u003e",
+    "returnsHeadline": "\u003cdiv class\u003d\"par parsys\"\u003e\n \u003cdiv class\u003d\"cms30r section\"\u003e\n  \u003cdiv class\u003d\"free-html\"\u003e \n   \u003cstyle type\u003d\"text/css\"\u003e.free-html a.more-details {   font-weight:normal;}}.returns-info { float:left;}.returns-info h2 {float:left;padding-right:10px;}.returns-info-link { padding:4px 0 15px 0;}\n   \u003c/style\u003e\n   \u003cdiv class\u003d\"returns-info\"\u003e\n    \u003ch2\u003e\u003ca href\u003d\"#tabinfo-returns\" class\u003d\"tab-link\"\u003eReturns -\u003c/a\u003e\u003c/h2\u003e\n    \u003cdiv class\u003d\"returns-info-link\"\u003e\n     \u003ca href\u003d\"#tabinfo-returns\" class\u003d\"more-details \"\u003eSee more details\u003c/a\u003e\n    \u003c/div\u003e\n   \u003c/div\u003e\n  \u003c/div\u003e\n \u003c/div\u003e\n\u003c/div\u003e",
+    "termsAndConditions": "",
+    "productInformation": "\u003cp\u003eBoasting plenty of convenient features within a simple-to-use design, the SMS24AW01G Freestanding Dishwasher from Bosch is sure to be a welcome helping hand in any kitchen.\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eEnergy efficiency\u003c/strong\u003e\u003cbr\u003e\nAwarded an A+ for energy efficiency, you can rely on this smart appliance to help you make significant savings on your energy bills while reducing your impact on the environment.\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003edosageAssist\u003c/strong\u003e\u003cbr\u003e\nThis useful feature makes sure your detergent is completely dissolved for a more effective wash by releasing it into a special tray on top of the basket and mixing it into the cycle.\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eecoSilence\u003c/strong\u003e\u003cbr\u003e\nBosch\u0027s revolutionary brushless motor has been developed to achieve maximum power with minimum energy loss. It\u0027s now quieter, faster, more energy efficient, durable and powerful.\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003evarioSpeed\u003c/strong\u003e\u003cbr\u003e\nClean your dishes in up to half the time without compromising on the results with the varioSpeed  setting. If you\u0027re in a hurry, simply press the varioSpeed button and the SMS24AW01G will complete a wash and dry cycle in the shortest time possible.\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eFlexible loading\u003c/strong\u003e\u003cbr\u003e\nThe SMS24AW01G offers total flexibility with its varioBasket system. The top basket can be adjusted between 3 height positions and both top and bottom drawers contain plenty of racking and 2 foldable cup shelves each.\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eAdditional features:\u003c/strong\u003e\u003cbr\u003e\n\u003cul\u003e\n\u003cli\u003eInternal water protection\u003c/li\u003e\n\u003cli\u003eGlass protection\u003c/li\u003e \n\u003cli\u003eSelf-cleaning filter\u003c/li\u003e\n\u003cli\u003eEco 50°C programme\u003c/li\u003e\n\u003cli\u003eQuick 45 °C wash\u003c/li\u003e\u003c/ul\u003e\u003c/p\u003e\n",
+    "features": [
+      {
+        "groupName": "",
+        "attributes": [
+          {
+            "value": "YES",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723657",
+            "name": "Salt Level Indicator",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "Freestanding",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723658",
+            "name": "Type",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "SMS24AW01G",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723659",
+            "name": "Manufacturer Part Number (MPN)",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "A",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723660",
+            "name": "Wash performance",
+            "toolTip": "Graded on performance A - G, with A being the highest grade. The higher the grade the more energy efficient the appliance.",
+            "uom": ""
+          },
+          {
+            "value": "50dB",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723661",
+            "name": "Noise Level",
+            "toolTip": "How noisy, in decibels, the machine is. The lower the dB, the quieter the appliance. A human voice in normal conversation is approximately 60dB, while an alarm clock might be 80dB",
+            "uom": ""
+          },
+          {
+            "value": "YES",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723662",
+            "name": "Rinse Aid Indicator",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "H84.5cm x W60cm x D60cm",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723663",
+            "name": "Dimensions",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "11.7L",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723666",
+            "name": "Water Consumption Per Standard Cycle",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "NO",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723668",
+            "name": "Time remaining indicator",
+            "toolTip": "Tells you how long the programme\u0027s got to go before completion",
+            "uom": ""
+          },
+          {
+            "value": "1.02kWh/cycle",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723669",
+            "name": "Energy Consumption Per Standard Cycle",
+            "toolTip": "An estimate based on the drying cycle of the standard cotton programme at full load. Actual energy consumption per cycle will depend on how the appliance is used.",
+            "uom": ""
+          },
+          {
+            "value": "SMS24AW01G Freestanding Dishwasher",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723670",
+            "name": "Model name / number",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "YES",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723674",
+            "name": "Adjustable racking",
+            "toolTip": "Indicates whether you can move the racking around. This helps to fit large or awkwardly shaped items",
+            "uom": ""
+          },
+          {
+            "value": "NO",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723675",
+            "name": "Digital display",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "NO",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723678",
+            "name": "Delicate Wash",
+            "toolTip": "This cycle uses a lesser degree of agitation and the spin cycle uses a slow spin to extract water from your laundry. This provides an effective but overall gentler wash, ideal for delicate items",
+            "uom": ""
+          },
+          {
+            "value": "NO",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723679",
+            "name": "Program Sequence Indicator",
+            "toolTip": "Tells you the progress of your washing/drying cycle",
+            "uom": ""
+          },
+          {
+            "value": "NO",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723680",
+            "name": "Child lock",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "Basket",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723682",
+            "name": "Cutlery Holder Type",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "NO",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723683",
+            "name": "Slim depth",
+            "toolTip": "A freestanding appliance approximately 55cm or less in depth",
+            "uom": ""
+          },
+          {
+            "value": "YES",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723685",
+            "name": "Delay Start",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "290kWh",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723686",
+            "name": "Estimated Annual Energy Consumption",
+            "toolTip": "An estimate of how much electricity the item would use over a year under standard usage conditions",
+            "uom": ""
+          },
+          {
+            "value": "12",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723688",
+            "name": "Place Settings",
+            "toolTip": "A complete set of items provided for one person at a meal  ",
+            "uom": ""
+          },
+          {
+            "value": "A+",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723689",
+            "name": "Energy Rating ",
+            "toolTip": "Graded on performance, from A+++ to G, with A+++ being the highest rating. Higher ratings mean better energy efficiency",
+            "uom": ""
+          },
+          {
+            "value": "Full",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723690",
+            "name": "Dishwasher Size",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "Bosch",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723691",
+            "name": "Brand",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "YES",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723692",
+            "name": "Overflow protection",
+            "toolTip": "An anti-flood device prevents the machine from being damaged by flooding from the inlet pipe",
+            "uom": ""
+          },
+          {
+            "value": "YES",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723694",
+            "name": "Automatic Load Adjustment",
+            "toolTip": "Automatically adjusts water level for a smaller load, thus saving time and money",
+            "uom": ""
+          },
+          {
+            "value": "A",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723695",
+            "name": "Drying performance",
+            "toolTip": "Graded on performance A - G, with A being the highest grade",
+            "uom": ""
+          },
+          {
+            "value": "Residual",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723696",
+            "name": "Drying System",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "YES",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723697",
+            "name": "Quick wash",
+            "toolTip": "Speedy programme when you need items cleaned quickly",
+            "uom": ""
+          },
+          {
+            "value": "4 plus one special VarioSpeed option",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723698",
+            "name": "Number of Programs/Settings",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "3300L/year",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723699",
+            "name": "Estimated Annual Water Consumption",
+            "toolTip": "The amount of water used in litres per year, based on 220 standard washing cycles for cotton programs at 60°C and 40°C at full and partial load. Actual water consumption will depend on how the appliance is used.",
+            "uom": ""
+          },
+          {
+            "value": "Not Smart Technology Enabled",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723701",
+            "name": "Smart Technology",
+            "toolTip": "",
+            "uom": ""
+          },
+          {
+            "value": "NO",
+            "values": [],
+            "multivalued": false,
+            "id": "attr50000723702",
+            "name": "Quiet Mark",
+            "toolTip": "",
+            "uom": ""
+          }
+        ]
+      }
+    ],
+    "careGuide": [],
+    "featuredArticles": [],
+    "editorsNotes": "\u003cp\u003e\u003cstrong\u003eBy your side – today, tomorrow and in the future. Bosch’s home appliances. \u003c/strong\u003e\u003cbr /\u003e\nBosch can\u0027t simply cancel your daily routines for you. But they can shorten them for you. As Europe\u0027s number one home appliance brand, they always offer absolute peak performance to make your everyday life easier. Their home appliances represent uncompromising quality, technical perfection and absolute reliability. Yesterday, today and in the future.\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003e Robert Bosch\u0027s first workshop lays the foundations for Bosch Home Appliances.\u003c/strong\u003e\u003cbr /\u003e\nWith the establishment of his workshop for precision engineering and electrical engineering, Robert Bosch lays the foundations in Stuttgart for Bosch’s success story. For him, the thought of not producing the very best at all times was intolerable. Robert Bosch always acted on the principle that honest workmanship is more important than temporary gain. This is why, for nearly 130 years, Bosch’s products have stood for uncompromising quality, technical perfection and absolute reliability.\u003c/p\u003e",
+    "buyingGuides": [
+      {
+        "title": "Dishwashers Buying Guide",
+        "image": "//johnlewis.scene7.com/is/image/JohnLewis/electrical_med_icon?",
+        "linkUrl": "https://www.johnlewis.com/buying-guides/dishwashers-buying-guide",
+        "linkText": "Dishwashers Buying Guide",
+        "longDescription": "Wave farewell to the washing up with your new friend in the kitchen"
+      }
+    ],
+    "sizeGuides": [],
+    "weLikeItBecause": ""
+  },
+  "deliveries": [
+    {
+      "deliveryType": "UK",
+      "options": [
+        {
+          "id": "26",
+          "price": "0.00",
+          "currency": "GBP",
+          "shortDescription": "Delivery from 3 days, depending on postcode, charges apply to locations outside of UK mainland",
+          "standardDescription": "Delivery from 3 days, depending on postcode, charges apply to locations outside of UK mainland",
+          "date": "",
+          "dateMessage": "",
+          "trialMessage": "",
+          "isApprovedSupplier": false,
+          "leadTime": 0,
+          "cutOffTime": 1,
+          "newShortDescription": "Standard Delivery",
+          "newStandardDescription": "Delivery to UK mainland locations from 3 working days of your order, delivered on the day of your choice, Monday to Saturday.||Choose your preferred delivery day in checkout. 2-hour and 4-hour slots are available for an additional cost.||Availability varies by postcode. \u003ca href\u003d\u0027https://www.johnlewis.com/customer-services/delivery-information/uk-delivery\u0027\u003eCharges apply to locations outside of UK mainland\u003c/a\u003e.",
+          "newPriority": 1
+        },
+        {
+          "id": "202",
+          "price": "19.95",
+          "currency": "GBP",
+          "shortDescription": "Next day delivery to selected areas",
+          "standardDescription": "Next day delivery to selected areas",
+          "date": "",
+          "dateMessage": "",
+          "trialMessage": "",
+          "isApprovedSupplier": false,
+          "leadTime": 2,
+          "cutOffTime": 19,
+          "newShortDescription": "Next Day Delivery",
+          "newStandardDescription": "Order by 2pm for next day delivery, 11am - 9pm, Monday to Saturday. The evening before delivery day we\u0027ll let you know a 2-hour delivery window.||Availability varies by postcode. Not available to non-mainland locations, or when ordered with installation and disposal services.",
+          "newPriority": 4
+        }
+      ]
+    }
+  ],
+  "deliverySummary": [
+    {
+      "deliveryType": "UK",
+      "title": "UK delivery",
+      "price": "0.00",
+      "currency": "GBP",
+      "summary": "Delivery from 3 days, depending on postcode, charges apply to locations outside of UK mainland",
+      "trialMessage": "",
+      "newTitle": "Standard Delivery",
+      "newSummary": "Delivery to UK mainland locations from 3 working days of your order, delivered on the day of your choice, Monday to Saturday.||Choose your preferred delivery day in checkout. 2-hour and 4-hour slots are available for an additional cost.||Availability varies by postcode. \u003ca href\u003d\u0027https://www.johnlewis.com/customer-services/delivery-information/uk-delivery\u0027\u003eCharges apply to locations outside of UK mainland\u003c/a\u003e.",
+      "newPriority": 1,
+      "newOptionId": "26"
+    }
+  ],
+  "emailMeWhenAvailable": true,
+  "skus": [
+    {
+      "id": "236888513",
+      "skuTitle": "Bosch SMS24AW01G Freestanding Dishwasher, White",
+      "shortSkuTitle": "",
+      "color": "",
+      "size": "",
+      "sizeHeadline": "",
+      "swatchUrl": "//johnlewis.scene7.com/is/image/JohnLewis/236888513?cropN\u003d0.42105263157894735,0.42105263157894735,0.16842105263157894,0.16842105263157894\u0026",
+      "availability": {
+        "stockLevel": 250,
+        "availabilityStatus": "INSTOCK",
+        "message": "Currently in stock online"
+      },
+      "price": {
+        "was": "",
+        "then1": "",
+        "then2": "",
+        "now": "329.00",
+        "uom": "",
+        "currency": "GBP"
+      },
+      "code": "81701106",
+      "leadTime": "",
+      "d2cDeliveryLeadTime": "",
+      "media": {
+        "images": {
+          "altText": "Buy Bosch SMS24AW01G Freestanding Dishwasher, White Online at johnlewis.com",
+          "urls": [
+            "//johnlewis.scene7.com/is/image/JohnLewis/236888513?",
+            "//johnlewis.scene7.com/is/image/JohnLewis/236888513alt1?",
+            "//johnlewis.scene7.com/is/image/JohnLewis/236888513alt2?",
+            "//johnlewis.scene7.com/is/image/JohnLewis/236888513alt3?",
+            "//johnlewis.scene7.com/is/image/JohnLewis/236888513alt10?"
+          ]
+        },
+        "360images": {
+          "swfUrl": "//johnlewis.scene7.com/is/content/JohnLewis/360-degree-view",
+          "urls": []
+        }
+      },
+      "brandName": "Bosch",
+      "unitPriceInfo": {},
+      "priceBand": "",
+      "dynamicAttributes": {
+        "creditofferingids": "null",
+        "manufacturerpartnumbermpn": "SMS24AW01G",
+        "crediteligibilitystatus": "Core",
+        "modelnamenumber": "SMS24AW01G Freestanding Dishwasher"
+      },
+      "ticketType": "T"
+    }
+  ],
+  "title": "Bosch SMS24AW01G Freestanding Dishwasher, White",
+  "defaultSku": "236888513",
+  "storeOnly": false,
+  "type": "standard",
+  "ageRestriction": 0,
+  "seoURL": "/bosch-sms24aw01g-freestanding-dishwasher-white/p3218074",
+  "isFBL": false,
+  "averageRating": 4.4,
+  "numberOfReviews": 300,
+  "price": {
+    "was": "",
+    "then1": "",
+    "then2": "",
+    "now": "329.00",
+    "uom": "",
+    "currency": "GBP"
+  },
+  "code": "81701106",
+  "specialOffers": {
+    "priceMatched": "",
+    "offer": "",
+    "customPromotionalMessage": "",
+    "bundleHeadline": "",
+    "customSpecialOffer": {}
+  },
+  "displaySpecialOffer": "",
+  "setDetails": {},
+  "templateType": "media-epic-prodtemplate",
+  "priceBands": [],
+  "legs": [],
+  "swatchCategoryType": "",
+  "deliveryFulfilledBy": "greenVanFleet",
+  "additionalServices": {
+    "includedServices": ["2 year guarantee included"],
+    "optionalServices": [
+      {
+        "id": "233568687",
+        "associatedProductId": "1465506",
+        "title": "5 years Protect Plus for your home appliance (includes guarantee period)",
+        "description": "Our electrical products are guaranteed against breakdown for a minimum of 2 years at no extra cost. With Protect Plus, you\u0027ll get up to 5 years of protection against accidental damage alongside your guarantee. \u003ca href\u003d\u0027https://www.johnlewis.com/protectplus\u0027\u003eMore about Protect Plus\u003c/a\u003e",
+        "price": "100.00",
+        "currency": "GBP",
+        "orderOnSite": 1,
+        "type": "ADDED_WARRANTY",
+        "url": "/protectplus",
+        "customProperties": {
+          "warrantyCustomGeneric": "Exclusions apply. To make sure this policy meets your needs, please read the \u003ca href\u003d\u0027https://johnlewis.scene7.com/is/content/JohnLewis/IPID-Home-Appliancepdf\u0027\u003eInsurance Product Information Document\u003c/a\u003e.",
+          "warrantyCustomTooltip": "Our electrical products are guaranteed against breakdown for a minimum of 2 years at no extra cost. With Protect Plus for your home appliance, you\u0027ll get 5 years of protection against breakdown and accidental damage alongside your guarantee. \u003ca href\u003d\u0027https://www.johnlewis.com/our-services/protect-plus\u0027\u003eMore about Protect Plus\u003c/a\u003e.",
+          "warrantyCustomDescription": "Would you like to protect your home appliance for 5 years against breakdown (includes guarantee period) and accidental damage with Protect Plus?",
+          "warrantyCustomConfirm": "You\u0027ve chosen Protect Plus to protect your home appliance against breakdown (includes guarantee period) and accidental damage for 5 years.  Terms and conditions apply.  Please ensure you have read the \u003ca href\u003d\u0027https://johnlewis.scene7.com/is/content/JohnLewis/IPID-Home-Appliancepdf\u0027\u003eInsurance Product Information Document\u003c/a\u003e and \u003ca href\u003d\u0027https://www.johnlewis.com/our-services/protect-plus\u0027\u003eTerms and Important Information\u003c/a\u003e to ensure this insurance product meets your demands and needs."
+        }
+      },
+      {
+        "id": "DMS17",
+        "associatedProductId": "DMS17",
+        "title": "Dishwasher Installation",
+        "description": "\u003cp\u003e\u003cb\u003eWhat this includes\u003c/b\u003e\u003c/p\u003e\n\n\u003cul\u003e\n\u003cli\u003eConnection to an unobstructed 13amp, 3 pin electrical socket and waste outlet (if required) within 1 metre\u003c/li\u003e\n\u003cli\u003eElectrical circuit test, machine test and demonstration of basic controls\u003c/li\u003e\n\u003cli\u003eRemoval of all packaging\u003c/li\u003e\u003c/ul\u003e\n\n\u003cp\u003e\u003cb\u003eWhat you should know\u003c/b\u003e\u003c/p\u003e\n\n\u003cul\u003e\n\u003cli\u003eWe can\u0027t connect to hardwired sockets, only 3 pin electrical sockets\u003c/li\u003e\n\u003cli\u003eIf going under a worktop, make sure there\u0027s enough clearance (87cm from floor to underside)\u003c/li\u003e\n\u003cli\u003eIf going from integrated to freestanding, please remove the plinth and the decor door before our team\u0027s arrival\u003c/li\u003e\n\u003cli\u003eWe won\u0027t install in a bath/shower room, or in an unheated outbuilding such as a detached garage\u003c/li\u003e\n\u003cli\u003eWe\u0027ll give you transit bolts if you need to move the appliance to another property\n\u003c/li\u003e\n\u003c/ul\u003e",
+        "price": "25.00",
+        "currency": "GBP",
+        "orderOnSite": 2,
+        "type": "DBS",
+        "url": "",
+        "customProperties": {}
+      },
+      {
+        "id": "DMS14",
+        "associatedProductId": "DMS14",
+        "title": "Dishwasher Recycling",
+        "description": "\u003cp\u003eOur recycling service includes the taking away of your old appliance \u0026 packaging. The materials will be reused or recycled to create less waste \u0026 impact on the environment.\u003c/p\u003e\n\n\u003cp\u003ePlease drain/remove the contents of your old appliance and safely disconnect from the water/electricity supply.\u003c/p\u003e\n\n\u003cp\u003eIf you\u0027ve booked a recycling service, please place your old appliance outside your home before our team\u0027s arrival. If you\u0027ve booked an installation and recycling service, we\u0027ll take your old appliance away from the room.\u003c/p\u003e",
+        "price": "20.00",
+        "currency": "GBP",
+        "orderOnSite": 3,
+        "type": "DBS",
+        "url": "",
+        "customProperties": {}
+      }
+    ]
+  },
+  "media": {
+    "images": {
+      "altText": "Buy Bosch SMS24AW01G Freestanding Dishwasher, White Online at johnlewis.com",
+      "urls": [
+        "//johnlewis.scene7.com/is/image/JohnLewis/236888513?",
+        "//johnlewis.scene7.com/is/image/JohnLewis/236888513alt1?",
+        "//johnlewis.scene7.com/is/image/JohnLewis/236888513alt2?",
+        "//johnlewis.scene7.com/is/image/JohnLewis/236888513alt3?",
+        "//johnlewis.scene7.com/is/image/JohnLewis/236888513alt10?"
+      ]
+    },
+    "360images": {
+      "swfUrl": "//johnlewis.scene7.com/is/content/JohnLewis/360-degree-view",
+      "urls": []
+    },
+    "videos": {
+      "videosList": [
+        {
+          "videoType": "video/mp4",
+          "type": "jlVideo",
+          "name": "bosch_dosageassist_070120vid1",
+          "videoImageURL": "bosch_dosageassist_070120vid1",
+          "url": "bosch_dosageassist_070120vid1"
+        }
+      ],
+      "videoHost": "//johnlewis.scene7.com",
+      "videoImagePath": "/is/image/JohnLewis/",
+      "prod_vid_thmb": "$prod_vid_thmb$",
+      "videoHeight": "664",
+      "videoWidth": "664",
+      "imgAltText": "Buy Bosch SMS24AW01G Freestanding Dishwasher, White Online at johnlewis.com"
+    }
+  },
+  "setElements": [],
+  "headingTypes": [],
+  "moreFromRange": [],
+  "promotionalFeatures": [
+    {
+      "title": "Bosch SMS24AW01G Freestanding Dishwasher installation guide",
+      "iconUrl": "//johnlewis.scene7.com/is/image/JohnLewis/electrical_med_icon?",
+      "linkUrl": "//johnlewis.scene7.com/is/content/JohnLewis/236888513mnl1pdf",
+      "description": "Bosch SMS24AW01G Freestanding Dishwasher installation guide",
+      "longDescription": "Bosch SMS24AW01G Freestanding Dishwasher installation guide"
+    }
+  ],
+  "setInformation": "",
+  "specialOfferBundles": [],
+  "fixedRelatedProducts": [],
+  "siblingSets": [],
+  "defaultCategory": {
+    "id": "6000047",
+    "name": "Dishwashers"
+  },
+  "parentCategories": [
+    {
+      "id": "6000047",
+      "name": "Dishwashers"
+    }
+  ],
+  "releaseDateTimestamp": 0,
+  "crumbs": [
+    {
+      "type": "CATALOGUE",
+      "displayName": "Electricals",
+      "item": "500001",
+      "clickable": "true"
+    },
+    {
+      "type": "CATALOGUE",
+      "displayName": "Dishwashers",
+      "item": "6000047",
+      "clickable": "true"
+    }
+  ],
+  "seoInformation": {
+    "title": "",
+    "description": ""
+  },
+  "isInTopNkuCategory": true,
+  "brand": {
+    "name": "Bosch",
+    "logo": "//johnlewis.scene7.com/is/image/JohnLewis/bosch_brl?"
+  },
+  "swatchAvailable": "",
+  "madeToMeasureDetails": {
+    "type": "",
+    "styles": ""
+  },
+  "isAsafShape": false,
+  "dynamicAttributes": {
+    "timeremainingindicator": "NO",
+    "integratedorfreestanding": "Freestanding",
+    "smarttechnology": "Not Smart Technology Enabled",
+    "energyconsumptionpercycle": "1.02kWh/cycle",
+    "cutlerybasket": "Basket",
+    "dishwashersize": "Full",
+    "waterconsumptionstandardcycle": "11.7L",
+    "floodprotection": "YES",
+    "saltlevelindicator": "YES",
+    "estimatedannualenergyconsumption": "290kWh",
+    "dryingsystem": "Residual",
+    "automaticloadadjustment": "YES",
+    "noiselevel": "50dB",
+    "digitaldisplay": "NO",
+    "delicatewash": "NO",
+    "quickwash": "YES",
+    "homearea": "Clean",
+    "childlock": "NO",
+    "timerdelay": "YES",
+    "dryingperformance": "A",
+    "estimatedannualwaterconsumption": "3300L/year",
+    "homeappliancetype": "Dishwashers",
+    "programsequenceindicator": "NO",
+    "washperformance": "A",
+    "adjustableracking": "YES",
+    "quietmark": "NO",
+    "noofprograms": "4 plus one special VarioSpeed option",
+    "placesettings": "12",
+    "rinseaidindicator": "YES",
+    "slimdepth": "NO"
+  },
+  "excludeFromLiveChat": true,
+  "webPimProductType": "PRODUCT.Home \u0026 Garden.Domestic Appliances.Dishwashing Appliances.Dishwasher",
+  "nonPromoMessage": "",
+  "preorderable": false
+}
