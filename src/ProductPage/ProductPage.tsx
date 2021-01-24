@@ -3,13 +3,18 @@ interface ProductFeature {
   value: string;
 }
 
+interface ImageSources {
+  altText: string;
+  urls: string[];
+}
+
 interface ProductPageProps {
   title: string;
-  media: string;
+  images: ImageSources;
   price: string;
   productInformationHTML: string;
   specialOffer?: string;
-  guaranteeInformation: string;
+  guaranteeInformation: string[];
   productCode: string;
   productFeatures: ProductFeature[];
 }

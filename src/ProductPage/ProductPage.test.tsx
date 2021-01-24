@@ -3,34 +3,64 @@ import { render, screen } from "@testing-library/react";
 import { ProductPage } from "./ProductPage";
 
 const props = {
-  title: "",
-  media: "",
-  price: "",
-  productInformationHTML: "",
-  specialOffer: "",
-  guaranteeInformation: "",
-  productCode: "",
-  productFeatures: [{ name: "", value: "" }],
+  title: "Miele G6820 SC Freestanding Dishwasher",
+  images: {
+    altText: "Some alt text",
+    urls: ["sample.jpg"],
+  },
+  price: "329.00",
+  productInformationHTML:
+    "\u003cp\u003ePlenty of convenient features\u003c/p\u003e",
+  specialOffer: "Special offer text",
+  guaranteeInformation: ["2 year guarantee included"],
+  productCode: "012345",
+  productFeatures: [
+    {
+      value: "YES",
+      name: "Salt Level Indicator",
+    },
+    {
+      value: "Freestanding",
+      name: "Type",
+    },
+  ],
 };
 
-describe("ProductPage", () => {
+test("displays price", () => {
   render(<ProductPage {...props} />);
-  test("displays price", () => {
 
-  });
-  test("displays product information", () => {
+  const price = screen.getByText("£329.00");
+  expect(price).toBeInTheDocument();
+});
+test("displays product information", () => {
+  render(<ProductPage {...props} />);
 
-  });
-  test("displays special offer details when available", () => {
+  const productInfo = screen.getByText("Plenty of convenient features");
+  expect(productInfo).toBeInTheDocument();
+});
+test("displays special offer details when available", () => {
+  render(<ProductPage {...props} />);
 
-  });
-  test("displays guarantee information", () => {
+  const specialOfterText = screen.getByText("Special offer text");
+  expect(specialOfterText).toBeInTheDocument();
+});
+test("displays guarantee information", () => {
+  render(<ProductPage {...props} />);
 
-  });
-  test("displays product code", () => {
+  const guarantee = screen.getByText("2 year guarantee included");
+  expect(guarantee).toBeInTheDocument();
+});
+test("displays product code", () => {
+  render(<ProductPage {...props} />);
 
-  });
-  test("displays product specification data", () => {
+  const code = screen.getByText("012345");
+  expect(code).toBeInTheDocument();
+});
+test("displays product specification data", () => {
+  render(<ProductPage {...props} />);
 
+  const feature = screen.getByRole("row", {
+    name: /Salt Level Indicator YES/i,
   });
+  expect(feature).toBeInTheDocument();
 });
