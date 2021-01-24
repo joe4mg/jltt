@@ -1,14 +1,15 @@
 import React from "react";
 import {
   ProductGridItem,
-  ProductGridItemProps,
+  ProductGrimItemValues
 } from "./ProductGridItem/ProductGridItem";
 
 interface ProductGridProps {
-  products: ProductGridItemProps[];
+  products: ProductGrimItemValues[];
+  onShowProduct: (productId: string) => void;
 }
 
-export const ProductGrid = ({ products = [] }: ProductGridProps) => (
+export const ProductGrid = ({ products = [], onShowProduct }: ProductGridProps) => (
   <div className={"product-grid"}>
     <h1 className={"product-grid__grid"}>Dishwashers ({products.length})</h1>
     <div className={"product-grid__grid"}>
@@ -21,6 +22,7 @@ export const ProductGrid = ({ products = [] }: ProductGridProps) => (
           key={productId}
           productId={productId}
           title={title}
+          onProductSelect={onShowProduct}
         />
       ))}
     </div>

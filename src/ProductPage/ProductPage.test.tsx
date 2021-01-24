@@ -24,6 +24,7 @@ const props = {
       name: "Type",
     },
   ],
+  onClose: () => null,
 };
 
 test("displays price", () => {
