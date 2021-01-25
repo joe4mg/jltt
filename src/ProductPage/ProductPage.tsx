@@ -50,7 +50,7 @@ export const ProductPage = ({
   };
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [])
+  }, []);
   return (
     <div className="product-page">
       <header className="product-page__header">

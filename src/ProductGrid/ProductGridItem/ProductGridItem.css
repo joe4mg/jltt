@@ -6,7 +6,7 @@
   padding: 20px;
   cursor: pointer;
 }
-.grid-item:hover{
+.grid-item:hover {
   background-color: #efefef;
 }
 .grid-item__title {

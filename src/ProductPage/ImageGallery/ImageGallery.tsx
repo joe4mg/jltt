@@ -16,7 +16,9 @@ export const ImageGallery = ({ altText, urls }: ImageGalleryProps) => {
       <div className="gallery__button-area">
         {urls.map((url, idx) => (
           <button
-            className={`gallery__button ${imageIdx === idx ? "gallery__button--active" : ""}`}
+            className={`gallery__button ${
+              imageIdx === idx ? "gallery__button--active" : ""
+            }`}
             onClick={(e) => handleUpdateIndexClick(e, idx)}
             aria-label={`Display image variant ${idx}`}
           />

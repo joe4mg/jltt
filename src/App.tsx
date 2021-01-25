@@ -48,7 +48,9 @@ function App() {
             images: result.media.images,
             price: result.price.now,
             productInformationHTML: result.details.productInformation,
-            specialOffer: !!result.displaySpecialOffer?.length && result.displaySpecialOffer,
+            specialOffer:
+              !!result.displaySpecialOffer?.length &&
+              result.displaySpecialOffer,
             guaranteeInformation: result.additionalServices.includedServices,
             productCode: result.code,
             productFeatures: result.details.features[0].attributes,

@@ -8,7 +8,7 @@ export interface ProductGrimItemValues {
   image: string;
 }
 
-export interface ProductGridItemProps extends ProductGrimItemValues{
+export interface ProductGridItemProps extends ProductGrimItemValues {
   onProductSelect: (productId: string) => void;
 }
 

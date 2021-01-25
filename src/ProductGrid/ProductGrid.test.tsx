@@ -21,28 +21,28 @@ const props = {
       price: "250.00",
       title: "Panasonic Dishwasher",
       image: "sample.jpg",
-    }
+    },
   ],
   onShowProduct: () => null,
-}
+};
 
-  test("heading displays total number of all dishwashers", () => {
-    render(<ProductGrid {...props} />);
-    const pageTitleWithCount = screen.getByText("Dishwashers (3)");
-    expect(pageTitleWithCount).toBeInTheDocument();
-  });
-  test("lists all dishwashers provided by props", () => {
-    render(<ProductGrid {...props} />);
-    const listItems = screen.getAllByTestId('list-item');
-    expect(listItems.length).toBe(3);
-  });
-  test("grid items display title", () => {
-    render(<ProductGrid {...props} />);
-    const itemTitle = screen.getByText("Panasonic Dishwasher");
-    expect(itemTitle).toBeInTheDocument();
-  });
-  test("grid items display price", () => {
-    render(<ProductGrid {...props} />);
-    const itemPrice = screen.getByText("£250.00");
-    expect(itemPrice).toBeInTheDocument();
-  });
+test("heading displays total number of all dishwashers", () => {
+  render(<ProductGrid {...props} />);
+  const pageTitleWithCount = screen.getByText("Dishwashers (3)");
+  expect(pageTitleWithCount).toBeInTheDocument();
+});
+test("lists all dishwashers provided by props", () => {
+  render(<ProductGrid {...props} />);
+  const listItems = screen.getAllByTestId("list-item");
+  expect(listItems.length).toBe(3);
+});
+test("grid items display title", () => {
+  render(<ProductGrid {...props} />);
+  const itemTitle = screen.getByText("Panasonic Dishwasher");
+  expect(itemTitle).toBeInTheDocument();
+});
+test("grid items display price", () => {
+  render(<ProductGrid {...props} />);
+  const itemPrice = screen.getByText("£250.00");
+  expect(itemPrice).toBeInTheDocument();
+});
