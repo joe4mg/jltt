@@ -54,7 +54,7 @@ test("displays guarantee information", () => {
 test("displays product code", () => {
   render(<ProductPage {...props} />);
 
-  const code = screen.getByText("012345");
+  const code = screen.getByText("Product code: 012345");
   expect(code).toBeInTheDocument();
 });
 test("displays product specification data", () => {

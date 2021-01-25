@@ -16,6 +16,7 @@ export const ImageGallery = ({ altText, urls }: ImageGalleryProps) => {
       <div className="gallery__button-area">
         {urls.map((url, idx) => (
           <button
+            key={url}
             className={`gallery__button ${
               imageIdx === idx ? "gallery__button--active" : ""
             }`}
