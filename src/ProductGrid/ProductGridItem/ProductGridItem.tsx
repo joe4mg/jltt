@@ -25,7 +25,7 @@ export const ProductGridItem = ({
   };
   return (
     <div className="grid-item" data-testid="list-item" onClick={handleClick}>
-      <img src={image} />
+      <img src={image} alt={title} />
       <h2 className="grid-item__title">{title}</h2>
       <p className="grid-item__price">&pound;{price}</p>
     </div>
