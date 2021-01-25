@@ -1,0 +1,119 @@
+.product-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    grid-template-areas:
+    "header"
+    "main"
+    "main2"
+    "main3"
+    "sidebar"
+}
+
+.product-page__header{
+    grid-area: header;
+
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: auto;
+    column-gap: 50px;
+    align-items: center;
+
+}
+
+.product-page__header__title{
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #6b6b6b;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.product-page__header__back-button{
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #6b6b6b;
+    cursor: pointer;
+}
+
+.product-page__images{
+    grid-area: main;
+
+    padding: 0 20px;
+}
+
+.product-page__price-info{
+    grid-area: main2;
+
+    padding: 0 20px;
+}
+
+.product-page__product-details{
+    grid-area: main3;
+
+    padding: 0 20px;
+
+    color: #6b6b6b;
+}
+
+.product-page__product-details h2{
+    margin-top: 0;
+}
+
+@media screen and (min-width: 700px) and (orientation: landscape) {
+    .product-page{
+        display: grid;
+        grid-template-columns: 66% 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "header header"
+        "main sidebar"
+        "main2 sidebar"
+        "main3 sidebar"
+    }
+
+    .product-page__header {
+        border-bottom: 1px solid #d8d8d8;
+    }
+
+    .product-page__images{
+        grid-area: main;
+
+        padding: 20px 20px 0 20px;
+        border-right: 1px solid #d8d8d8;
+    }
+
+    .product-page__price-info{
+        grid-area: sidebar;
+
+        padding: 20px;
+    }
+
+    .product-page__product-details{
+        grid-area: main3;
+
+        padding: 20px;
+        border-right: 1px solid #d8d8d8;
+    }
+}
+
+.price-info{
+
+}
+.price-info__price{
+    font-size: 3rem;
+    color: #141414;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+.price-info__offer{
+    color: #db003e;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+.price-info__guarantee{
+    color: #141414;
+    margin: 0;
+}

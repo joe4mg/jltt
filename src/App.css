@@ -1,5 +1,26 @@
 .App {
+  color: #141414;
+  line-height: 1.2;
+  font-family: GillSansforJL,Gill Sans,Gill Sans MT,GillSansMTStd-Medium,Avenir,Corbel,Arial,Helvetica,sans-serif;
+}
 
+h1,h2,h3,h4,h5 {
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #d8d8d8;
+}
+td, th {
+  padding: 1em 0;
+}
+td:last-child, th:last-child{
+  text-align: right;
 }
 
 img {

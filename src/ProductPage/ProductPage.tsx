@@ -1,5 +1,6 @@
-import React, { SyntheticEvent } from "react";
+import React, { SyntheticEvent, useEffect } from "react";
 import ReactHtmlParser from "react-html-parser";
+import "./ProductPage.css";
 
 interface ProductFeature {
   name: string;
@@ -41,32 +42,47 @@ export const ProductPage = ({
     e.preventDefault();
     onClose();
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div className="product-page">
-      <h1>{title}</h1>
-      <button onClick={handleClick}>Back</button>
-      <p>{images.urls[0]}</p>
-      <p>&pound;{price}</p>
-      <div>{ReactHtmlParser(productInformationHTML)}</div>
-      {specialOffer && <div>{specialOffer}</div>}
-      <p>{guaranteeInformation}</p>
-      <p>{productCode}</p>
-      <table>
-        <thead>
-          <tr>
-            <td>Feature</td>
-            <td>Detail</td>
-          </tr>
-        </thead>
-        <tbody>
-          {productFeatures.map(({ name, value }, idx) => (
-            <tr key={idx}>
-              <td>{name}</td>
-              <td>{value}</td>
+      <header className='product-page__header'>
+      <button className='product-page__header__back-button' onClick={handleClick} aria-label="Back to product list">&lsaquo;</button>
+      <h1 className='product-page__header__title'>{title}</h1>
+      </header>
+      <div className="product-page__images">
+        <img src={images.urls[0]} alt={images.altText} />
+        {/*{*/}
+        {/*  images.urls.map((url) => <img src={url} alt={images.altText} />)*/}
+        {/*}*/}
+      </div>
+      <div className='product-page__price-info price-info'>
+        <p className='price-info__price'>&pound;{price}</p>
+        {specialOffer && <div className='price-info__offer'>{specialOffer}</div>}
+        <p className='price-info__guarantee'>{guaranteeInformation}</p>
+      </div>
+      <div className='product-page__product-details'>
+        <h2>Product information</h2>
+        <p>Product code: {productCode}</p>
+        <div>{ReactHtmlParser(productInformationHTML)}</div>
+        <table>
+          <thead>
+            <tr>
+              <td>Feature</td>
+              <td>Detail</td>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {productFeatures.map(({ name, value }, idx) => (
+              <tr key={idx}>
+                <td>{name}</td>
+                <td>{value}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };
