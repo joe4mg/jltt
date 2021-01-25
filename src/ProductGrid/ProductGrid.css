@@ -1,0 +1,11 @@
+.product-grid-page {}
+
+.product-grid-page-title {
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-auto-flow: row;
+}

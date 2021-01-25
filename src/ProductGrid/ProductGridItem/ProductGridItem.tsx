@@ -1,4 +1,5 @@
 import React, { SyntheticEvent } from "react";
+import "./ProductGridItem.css";
 
 export interface ProductGrimItemValues {
   productId: string;
@@ -23,11 +24,10 @@ export const ProductGridItem = ({
     onProductSelect(productId);
   };
   return (
-    <div className={"grid-item"} data-testid="list-item" onClick={handleClick}>
-      <h2>{title}</h2>
-      <p>&pound;{price}</p>
-      <p>{image}</p>
-      <p>{productId}</p>
+    <div className="grid-item" data-testid="list-item" onClick={handleClick}>
+      <img src={image} />
+      <h2 className="grid-item__title">{title}</h2>
+      <p className="grid-item__price">&pound;{price}</p>
     </div>
   );
 };

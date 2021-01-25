@@ -3,6 +3,7 @@ import {
   ProductGridItem,
   ProductGrimItemValues
 } from "./ProductGridItem/ProductGridItem";
+import "./ProductGrid.css";
 
 interface ProductGridProps {
   products: ProductGrimItemValues[];
@@ -10,9 +11,9 @@ interface ProductGridProps {
 }
 
 export const ProductGrid = ({ products = [], onShowProduct }: ProductGridProps) => (
-  <div className={"product-grid"}>
-    <h1 className={"product-grid__grid"}>Dishwashers ({products.length})</h1>
-    <div className={"product-grid__grid"}>
+  <div className={"product-grid-page"}>
+    <h1 className={"product-grid-page-title"}>Dishwashers ({products.length})</h1>
+    <div className={"product-grid"}>
       {products
         .slice(0,20)
         .map(({ image, price, productId, title }) => (

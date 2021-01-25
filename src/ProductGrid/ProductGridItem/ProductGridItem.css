@@ -1,0 +1,18 @@
+.grid-item {
+  border-top: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 0;
+  border-left: 0;
+  padding: 20px;
+  cursor: pointer;
+}
+.grid-item:hover{
+  background-color: #efefef;
+}
+.grid-item__title {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.grid-item__price {
+  font-weight: bold;
+}
