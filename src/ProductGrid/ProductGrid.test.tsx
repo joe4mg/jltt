@@ -22,7 +22,8 @@ const props = {
       title: "Panasonic Dishwasher",
       image: "sample.jpg",
     }
-  ]
+  ],
+  onShowProduct: () => null,
 }
 
   test("heading displays total number of all dishwashers", () => {
