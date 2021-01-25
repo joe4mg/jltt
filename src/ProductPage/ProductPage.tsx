@@ -1,4 +1,4 @@
-import React, { SyntheticEvent, useEffect } from "react";
+import React, { SyntheticEvent, useEffect, useState } from "react";
 import ReactHtmlParser from "react-html-parser";
 import "./ProductPage.css";
 
@@ -38,9 +38,14 @@ export const ProductPage = ({
   productFeatures,
   onClose,
 }: ProductPageProps) => {
-  const handleClick = (e: SyntheticEvent) => {
+  const [truncateText, setTruncateText] = useState(true);
+  const handleCloseClick = (e: SyntheticEvent) => {
     e.preventDefault();
     onClose();
+  };
+  const handleTruncateToggle = (e: SyntheticEvent) => {
+    e.preventDefault();
+    setTruncateText(!truncateText);
   };
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -48,7 +53,7 @@ export const ProductPage = ({
   return (
     <div className="product-page">
       <header className='product-page__header'>
-      <button className='product-page__header__back-button' onClick={handleClick} aria-label="Back to product list">&lsaquo;</button>
+      <button className='product-page__header__back-button' onClick={handleCloseClick} aria-label="Back to product list">&lsaquo;</button>
       <h1 className='product-page__header__title'>{title}</h1>
       </header>
       <div className="product-page__images">
@@ -57,15 +62,31 @@ export const ProductPage = ({
         {/*  images.urls.map((url) => <img src={url} alt={images.altText} />)*/}
         {/*}*/}
       </div>
-      <div className='product-page__price-info price-info'>
-        <p className='price-info__price'>&pound;{price}</p>
-        {specialOffer && <div className='price-info__offer'>{specialOffer}</div>}
-        <p className='price-info__guarantee'>{guaranteeInformation}</p>
+      <div className="product-page__price-info price-info">
+        <p className="price-info__price">&pound;{price}</p>
+        {specialOffer && (
+          <div className="price-info__offer">{specialOffer}</div>
+        )}
+        <p className="price-info__guarantee">{guaranteeInformation}</p>
       </div>
-      <div className='product-page__product-details'>
+      <div className="product-page__product-details">
         <h2>Product information</h2>
         <p>Product code: {productCode}</p>
-        <div>{ReactHtmlParser(productInformationHTML)}</div>
+        <div
+          className={`product-description ${
+            !truncateText ? "product-description--open" : ""
+          }`}
+        >
+          {ReactHtmlParser(productInformationHTML)}
+        </div>
+        <button
+          className="price-info__text-toggle-button"
+          onClick={handleTruncateToggle}
+        >
+          <span>{`${truncateText ? "Read more" : "Read less"}`}</span>{" "}
+          <span>&rsaquo;</span>
+        </button>
+        <h2>Product specification</h2>
         <table>
           <thead>
             <tr>

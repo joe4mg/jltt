@@ -73,7 +73,7 @@ function App() {
     return (
       <div className="App">
         {activeProductData ? (
-          <ProductPage {...activeProductData} onClose={() => handleHideProduct()} />
+          <ProductPage {...activeProductData} onClose={handleHideProduct} />
         ) : (
           <ProductGrid
             products={productList}
