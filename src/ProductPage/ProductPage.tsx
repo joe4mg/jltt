@@ -1,13 +1,14 @@
 import React, { SyntheticEvent, useEffect, useState } from "react";
 import ReactHtmlParser from "react-html-parser";
 import "./ProductPage.css";
+import { ImageGallery } from "./ImageGallery/ImageGallery";
 
 interface ProductFeature {
   name: string;
   value: string;
 }
 
-interface ImageSources {
+export interface ImageSources {
   altText: string;
   urls: string[];
 }
@@ -52,15 +53,18 @@ export const ProductPage = ({
   }, [])
   return (
     <div className="product-page">
-      <header className='product-page__header'>
-      <button className='product-page__header__back-button' onClick={handleCloseClick} aria-label="Back to product list">&lsaquo;</button>
-      <h1 className='product-page__header__title'>{title}</h1>
+      <header className="product-page__header">
+        <button
+          className="product-page__header__back-button"
+          onClick={handleCloseClick}
+          aria-label="Back to product list"
+        >
+          &lsaquo;
+        </button>
+        <h1 className="product-page__header__title">{title}</h1>
       </header>
       <div className="product-page__images">
-        <img src={images.urls[0]} alt={images.altText} />
-        {/*{*/}
-        {/*  images.urls.map((url) => <img src={url} alt={images.altText} />)*/}
-        {/*}*/}
+        <ImageGallery {...images} />
       </div>
       <div className="product-page__price-info price-info">
         <p className="price-info__price">&pound;{price}</p>
